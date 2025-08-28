@@ -1,0 +1,109 @@
+body {
+  background-color: lightblue;
+  overflow: hidden;
+}
+
+.mainText {
+    position: relative;
+    left: 602px;
+    bottom: -250px;
+    font-family: Tahoma;
+    font-size: 29px;
+    color: red;
+}
+
+.main {
+    position: relative;
+    left: 200px;
+    top: 200px;
+}
+
+.t1 {
+    position: relative;
+    left: 400px;
+    top: 100px;
+    font-family: Tahoma;
+    font-size: 25px;
+
+}
+
+.num {
+    position: relative;
+    left: 419px;
+    top: 106px;
+    width: 50px;
+    height: 30px;
+}
+
+.t2 {
+    position: relative;
+    left: 410px;
+    top: 100px;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+
+.symb {
+    position: relative;
+    left: 435px;
+    top: 105px;
+    width: 50px;
+    height: 30px;
+}
+
+.t3 {
+    position: relative;
+    left: 51px;
+    top: 60px;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+
+.lower {
+    position: relative;
+    left: 50px;
+    top: 65px;
+    width: 50px;
+    height: 30px;
+}
+
+.t4 {
+    position: relative;
+    left: 40px;
+    top: 60px;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+
+.upper {
+    position: relative;
+    left: 40px;
+    top: 65px;
+    width: 50px;
+    height: 30px;
+}
+
+.t5 {
+    position: relative;
+    left: -345px;
+    top: 140px;
+    font-family: Tahoma;
+    font-size: 25px;
+}
+
+.mainSelect {
+    position: relative;
+    left: -290px;
+    top: 140px;
+    width: 50;
+    height: 30px;
+}
+
+.mainInput {
+    position: relative;
+    left: 605px;
+    top: 350px;
+    width: 350px;
+    height: 50px;
+}
+
