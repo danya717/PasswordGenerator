@@ -91,7 +91,7 @@ body {
     font-size: 25px;
 }
 
-.mainSelect {
+.length {
     position: relative;
     left: -290px;
     top: 140px;
@@ -99,7 +99,7 @@ body {
     height: 30px;
 }
 
-.mainInput {
+.output {
     position: relative;
     left: 605px;
     top: 350px;
@@ -107,3 +107,10 @@ body {
     height: 50px;
 }
 
+.generate {
+    position: relative;
+    left: 450px;
+    top: 298px;
+    width: 80px;
+    height: 30px;
+}
