@@ -6,11 +6,20 @@ function getRandomLetter(arr) {
     let randomIndex = Math.floor(Math.random() * arr.length);
     return arr[randomIndex]
 }
-
 let letter = getRandomLetter(letters)
 //alert(letter)
 
+let nums = getRandomInt(1, 9);
+function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
+let symbols = ["!", "@", "#", "$", "%", "^", "&", "*"]
+function getRandomSymbol(arr) {
+    let randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex]
+}
+let symbol = getRandomSymbol[symbols]
 
 document.querySelector(".generate").onclick = function() {
     let checkBox1 = document.querySelector(".lower");
@@ -25,15 +34,15 @@ document.querySelector(".generate").onclick = function() {
         console.log("1")
     }
     if (checkBox2.checked) {
-        document.querySelector(".output").value = "WDWDWDFE"
+        document.querySelector(".output").value = getRandomLetter(letters).toUpperCase()
         console.log("2")
     }
     if (checkBox3.checked) {
-        document.querySelector(".output").value = "23131232"
+        document.querySelector(".output").value = getRandomInt(1, 9)
         console.log("3")
     }
     if (checkBox4.checked) {
-        document.querySelector(".output").value = "^@&*#@^#@"
+        document.querySelector(".output").value = getRandomSymbol(symbols)
         console.log("4")
     }
 //    if (mainInput = word) {
