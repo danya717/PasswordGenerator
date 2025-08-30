@@ -3,20 +3,34 @@ body {
   overflow: hidden;
 }
 
+.box {
+    position: relative;
+    border: 2px solid;
+    background-color: yellow;
+    border-radius: 25px;
+    width: 500px;
+    height: 350px;
+    left: 500px;
+    top: 200px;
+}
+
+.mainWeb {
+    position: relative;
+    top: -120px;
+    left: -200px;
+}
+
+
 .mainText {
     position: relative;
-    left: 602px;
-    bottom: -250px;
+    left: 767px;
+    bottom: -5px;
     font-family: Tahoma;
     font-size: 29px;
     color: red;
 }
 
-.main {
-    position: relative;
-    left: 200px;
-    top: 200px;
-}
+
 
 .t1 {
     position: relative;
@@ -101,16 +115,16 @@ body {
 
 .output {
     position: relative;
-    left: 605px;
-    top: 350px;
+    left: 770px;
+    top: 150px;
     width: 350px;
     height: 50px;
 }
 
 .generate {
     position: relative;
-    left: 450px;
-    top: 298px;
+    left: 550px;
+    top: 200px;
     width: 80px;
     height: 30px;
 }
